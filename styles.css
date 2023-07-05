@@ -15,7 +15,7 @@ h1{
     position: relative;
     background-color: lightblue;
     margin: 0 auto;
-    border-radius:50px;
+    border-radius:10%;
     border: 15px solid black;
     box-shadow: 15px 10px 50px lightgreen;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
