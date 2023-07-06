@@ -7,6 +7,8 @@ const middleHeader = document.querySelector(".middle-header");
 const aftercard = document.querySelector(".after-card");
 const beforecard = document.querySelector(".before-card");
 
+const middlePicture = document.querySelector(".middle-profile-picture");
+
 let isDragging = false;
 let startX = 0;
 let startRight = 0;
@@ -45,6 +47,8 @@ function drag(event) {
       middleHeader.classList.add("active");
       aftercard.classList.add("active");
       beforecard.classList.add("active");
+
+      middlePicture.classList.add("active");
       listItems.forEach((listItem) => {
         listItem.classList.add("active");
       });
@@ -54,6 +58,8 @@ function drag(event) {
       middleHeader.classList.remove("active");
       aftercard.classList.remove("active");
       beforecard.classList.remove("active");
+
+      middlePicture.classList.remove("active");
       listItems.forEach((listItem) => {
         listItem.classList.remove("active");
       });
