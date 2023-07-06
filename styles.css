@@ -18,7 +18,7 @@ h1{
     border-radius:10%;
     border: 15px solid black;
     box-shadow: 15px 10px 50px lightgreen;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans", bold;
 
 
    
@@ -126,7 +126,7 @@ h1{
   .phone-background-container.active{
     max-width: 27rem;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: lightblue;
     margin: 0 auto;
     border-radius:50px;
@@ -134,6 +134,7 @@ h1{
     box-shadow: 15px 10px 50px black;
     opacity: 1;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-y: hidden;
    
   
   }
@@ -149,22 +150,27 @@ h1{
     
   .middle-header.active{
     border-radius: 8px;
-    padding: .5rem;
+   padding: .1rem;
+   bottom: 2.5rem;
    
   }
 
   .middle-profile-picture.active{
     border-radius: 8px;
+    position: relative;
+    bottom: 2rem;
   }
 
   .bottom-bar.active{
     background-color: lightpink;
     border-radius: 0;
     width: 100%;
-    position: relative;
+    
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
    margin: 0 ;
+   position: absolute;
+   bottom: 0;
 
   }
 
