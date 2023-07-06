@@ -56,7 +56,8 @@ h1{
     background-color: white;
     border-radius: 10%;
     display: flex;
-    margin: 0 auto; 
+    margin: 0 auto;
+    padding-bottom: 1rem; 
     
   }
 
