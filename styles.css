@@ -8,6 +8,11 @@ h1{
     font-size: 3rem;
 }
 
+.introduction{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
 .phone-and-qrcode{
     display: flex;
     align-items: center;
