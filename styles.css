@@ -8,6 +8,11 @@ h1{
     font-size: 3rem;
 }
 
+.phone-and-qrcode{
+    display: flex;
+    align-items: center;
+}
+
   .phone-background-container{
     max-width: 30rem;
     height: 80%;
@@ -209,7 +214,11 @@ h1{
     opacity: 1;
   }
 
-  @media (min-width: 600px)  {
+  .qr-code{
+    display: none;
+  }
+
+  @media (min-width: 800px)  {
     .after-card{
         opacity: 0;
         font-size: 2rem;
@@ -220,6 +229,10 @@ h1{
 
       .drag-bar{
         top: 20vh;
+      }
+
+      .qr-code{
+        display: block;
       }
 
   }
